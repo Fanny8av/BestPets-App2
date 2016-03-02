@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364397111BEB2C9800A130BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364397101BEB2C9800A130BD /* AppDelegate.swift */; };
+		364397131BEB2C9800A130BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364397121BEB2C9800A130BD /* ViewController.swift */; };
+		364397161BEB2C9800A130BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364397141BEB2C9800A130BD /* Main.storyboard */; };
+		364397181BEB2C9800A130BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364397171BEB2C9800A130BD /* Assets.xcassets */; };
+		3643971B1BEB2C9800A130BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364397191BEB2C9800A130BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3643970D1BEB2C9800A130BD /* BestPetsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPetsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364397101BEB2C9800A130BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		364397121BEB2C9800A130BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		364397151BEB2C9800A130BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364397171BEB2C9800A130BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3643971A1BEB2C9800A130BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3643971C1BEB2C9800A130BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3643970A1BEB2C9800A130BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364397041BEB2C9800A130BD = {
+			isa = PBXGroup;
+			children = (
+				3643970F1BEB2C9800A130BD /* BestPetsApp */,
+				3643970E1BEB2C9800A130BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3643970E1BEB2C9800A130BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3643970D1BEB2C9800A130BD /* BestPetsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3643970F1BEB2C9800A130BD /* BestPetsApp */ = {
+			isa = PBXGroup;
+			children = (
+				364397101BEB2C9800A130BD /* AppDelegate.swift */,
+				364397121BEB2C9800A130BD /* ViewController.swift */,
+				364397141BEB2C9800A130BD /* Main.storyboard */,
+				364397171BEB2C9800A130BD /* Assets.xcassets */,
+				364397191BEB2C9800A130BD /* LaunchScreen.storyboard */,
+				3643971C1BEB2C9800A130BD /* Info.plist */,
+			);
+			path = BestPetsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3643970C1BEB2C9800A130BD /* BestPetsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3643971F1BEB2C9800A130BD /* Build configuration list for PBXNativeTarget "BestPetsApp" */;
+			buildPhases = (
+				364397091BEB2C9800A130BD /* Sources */,
+				3643970A1BEB2C9800A130BD /* Frameworks */,
+				3643970B1BEB2C9800A130BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestPetsApp;
+			productName = BestPetsApp;
+			productReference = 3643970D1BEB2C9800A130BD /* BestPetsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364397051BEB2C9800A130BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Fanny;
+				TargetAttributes = {
+					3643970C1BEB2C9800A130BD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 364397081BEB2C9800A130BD /* Build configuration list for PBXProject "BestPetsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364397041BEB2C9800A130BD;
+			productRefGroup = 3643970E1BEB2C9800A130BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3643970C1BEB2C9800A130BD /* BestPetsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3643970B1BEB2C9800A130BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3643971B1BEB2C9800A130BD /* LaunchScreen.storyboard in Resources */,
+				364397181BEB2C9800A130BD /* Assets.xcassets in Resources */,
+				364397161BEB2C9800A130BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364397091BEB2C9800A130BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364397131BEB2C9800A130BD /* ViewController.swift in Sources */,
+				364397111BEB2C9800A130BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		364397141BEB2C9800A130BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364397151BEB2C9800A130BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364397191BEB2C9800A130BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3643971A1BEB2C9800A130BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3643971D1BEB2C9800A130BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3643971E1BEB2C9800A130BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364397201BEB2C9800A130BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BestPetsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fanny.BestPetsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		364397211BEB2C9800A130BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BestPetsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fanny.BestPetsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364397081BEB2C9800A130BD /* Build configuration list for PBXProject "BestPetsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3643971D1BEB2C9800A130BD /* Debug */,
+				3643971E1BEB2C9800A130BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3643971F1BEB2C9800A130BD /* Build configuration list for PBXNativeTarget "BestPetsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364397201BEB2C9800A130BD /* Debug */,
+				364397211BEB2C9800A130BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 364397051BEB2C9800A130BD /* Project object */;
+}
